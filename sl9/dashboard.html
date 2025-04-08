@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Admin Module</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('./3.jpg'); /* Use a relative path */
+            background-size: cover; /* Ensures the image covers the entire screen */
+            background-position: center; /* Centers the image */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
+            height: 100vh; /* Ensures the body takes up the full viewport height */
+        }
+        .navbar {
+            background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background */
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        .menu {
+            display: flex;
+            justify-content: space-around;
+            margin: 2rem 0;
+        }
+        .menu a {
+            text-decoration: none;
+            color: #333;
+            padding: 1rem 2rem;
+            border: 1px solid #333;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+        }
+        .menu a:hover {
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">Admin Module - Dashboard</div>
+    <div class="menu">
+        <a href="/dashboard">Dashboard</a>
+        <a href="/course">Course</a>
+        <a href="/subject">Subject</a>
+        <a href="/payrolls">Payrolls</a>
+        <a href="/search">Search</a>
+        <a href="/reports">Reports</a>
+    </div>
+</body>
+</html>
